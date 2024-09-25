@@ -1,4 +1,3 @@
-
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700&display=swap');
 
 
@@ -27,7 +26,7 @@ section{
     color: #fff;
     background: var(--main-color);
 }
- .home .apa img{
+img{
     width: 100%;
 }
 
@@ -54,9 +53,6 @@ header{
     display: flex;
     align-items: center ;
 }
-
-
-
 .logo img{
     width: 150px;
 }
@@ -458,19 +454,16 @@ header{
         padding: 10px 5%;
     }
 
-    .header .apa img{
-        width: 40%;
-    }
-
     .navbar {
         display: none;
         flex-direction: column;
         width: 100%;
+        align-items: center;
         position: absolute;
         top: 70px;
+        gap: 20px;
         background-color: #FFFFFF;
         z-index: 999;
-
     }
     
     .icon-toggle{
